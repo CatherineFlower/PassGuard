@@ -1,0 +1,9 @@
+/Users/ekaterinapetrenko/Documents/QT_works/PassGuard/build/Qt_6_9_Desktop_ARM-Debug/CMakeFiles/PassGuard.dir
+/Users/ekaterinapetrenko/Documents/QT_works/PassGuard/build/Qt_6_9_Desktop_ARM-Debug/CMakeFiles/edit_cache.dir
+/Users/ekaterinapetrenko/Documents/QT_works/PassGuard/build/Qt_6_9_Desktop_ARM-Debug/CMakeFiles/rebuild_cache.dir
+/Users/ekaterinapetrenko/Documents/QT_works/PassGuard/build/Qt_6_9_Desktop_ARM-Debug/CMakeFiles/list_install_components.dir
+/Users/ekaterinapetrenko/Documents/QT_works/PassGuard/build/Qt_6_9_Desktop_ARM-Debug/CMakeFiles/install.dir
+/Users/ekaterinapetrenko/Documents/QT_works/PassGuard/build/Qt_6_9_Desktop_ARM-Debug/CMakeFiles/install/local.dir
+/Users/ekaterinapetrenko/Documents/QT_works/PassGuard/build/Qt_6_9_Desktop_ARM-Debug/CMakeFiles/install/strip.dir
+/Users/ekaterinapetrenko/Documents/QT_works/PassGuard/build/Qt_6_9_Desktop_ARM-Debug/CMakeFiles/PassGuard_autogen_timestamp_deps.dir
+/Users/ekaterinapetrenko/Documents/QT_works/PassGuard/build/Qt_6_9_Desktop_ARM-Debug/CMakeFiles/PassGuard_autogen.dir
