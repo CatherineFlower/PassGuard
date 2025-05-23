@@ -84,8 +84,8 @@ clean: CMakeFiles/PassGuard_autogen.dir/clean
 # Target rules for target CMakeFiles/PassGuard.dir
 
 # All Build rule for target.
-CMakeFiles/PassGuard.dir/all: CMakeFiles/PassGuard_autogen_timestamp_deps.dir/all
 CMakeFiles/PassGuard.dir/all: CMakeFiles/PassGuard_autogen.dir/all
+CMakeFiles/PassGuard.dir/all: CMakeFiles/PassGuard_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PassGuard.dir/build.make CMakeFiles/PassGuard.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PassGuard.dir/build.make CMakeFiles/PassGuard.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ekaterinapetrenko/Documents/QT_works/PassGuard/build/Qt_6_9_Desktop_ARM-Debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target PassGuard"
@@ -103,8 +103,8 @@ PassGuard: CMakeFiles/PassGuard.dir/rule
 .PHONY : PassGuard
 
 # codegen rule for target.
-CMakeFiles/PassGuard.dir/codegen: CMakeFiles/PassGuard_autogen_timestamp_deps.dir/all
 CMakeFiles/PassGuard.dir/codegen: CMakeFiles/PassGuard_autogen.dir/all
+CMakeFiles/PassGuard.dir/codegen: CMakeFiles/PassGuard_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PassGuard.dir/build.make CMakeFiles/PassGuard.dir/codegen
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ekaterinapetrenko/Documents/QT_works/PassGuard/build/Qt_6_9_Desktop_ARM-Debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Finished codegen for target PassGuard"
 .PHONY : CMakeFiles/PassGuard.dir/codegen

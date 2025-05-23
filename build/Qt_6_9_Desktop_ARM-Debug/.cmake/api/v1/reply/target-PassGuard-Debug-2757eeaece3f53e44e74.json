@@ -45,7 +45,7 @@
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 34,
+				"line" : 35,
 				"parent" : 0
 			},
 			{
@@ -69,13 +69,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 73,
+				"line" : 74,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 56,
+				"line" : 57,
 				"parent" : 0
 			},
 			{
@@ -343,6 +343,16 @@
 			{
 				"backtrace" : 6,
 				"fragment" : "/opt/homebrew/lib/QtWidgets.framework/Versions/A/QtWidgets",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libssl.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libcrypto.dylib",
 				"role" : "libraries"
 			},
 			{

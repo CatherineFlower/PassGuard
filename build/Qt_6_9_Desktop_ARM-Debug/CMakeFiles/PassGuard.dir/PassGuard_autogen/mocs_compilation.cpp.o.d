@@ -969,6 +969,8 @@ CMakeFiles/PassGuard.dir/PassGuard_autogen/mocs_compilation.cpp.o: \
   /opt/homebrew/include/QtWidgets/qsizepolicy.h \
   /opt/homebrew/include/QtGui/qcursor.h \
   /opt/homebrew/include/QtGui/qbitmap.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QString \
+  /opt/homebrew/lib/QtCore.framework/Headers/qstring.h \
   /opt/homebrew/include/QtCore/qtmochelpers.h \
   /opt/homebrew/include/QtCore/qtmocconstants.h \
   /opt/homebrew/include/QtCore/q20algorithm.h \
@@ -999,8 +1001,6 @@ CMakeFiles/PassGuard.dir/PassGuard_autogen/mocs_compilation.cpp.o: \
   /opt/homebrew/include/QtWidgets/qrubberband.h \
   /Users/ekaterinapetrenko/Documents/QT_works/PassGuard/build/Qt_6_9_Desktop_ARM-Debug/PassGuard_autogen/EWIEGA46WW/../../../../passwordmanager.h \
   /Users/ekaterinapetrenko/Documents/QT_works/PassGuard/build/Qt_6_9_Desktop_ARM-Debug/PassGuard_autogen/EWIEGA46WW/../../../../passwordentry.h \
-  /opt/homebrew/lib/QtCore.framework/Headers/QString \
-  /opt/homebrew/lib/QtCore.framework/Headers/qstring.h \
   /opt/homebrew/lib/QtCore.framework/Headers/QVector \
   /opt/homebrew/lib/QtCore.framework/Headers/qvector.h \
   /Users/ekaterinapetrenko/Documents/QT_works/PassGuard/build/Qt_6_9_Desktop_ARM-Debug/PassGuard_autogen/EWIEGA46WW/moc_qrdialog.cpp \

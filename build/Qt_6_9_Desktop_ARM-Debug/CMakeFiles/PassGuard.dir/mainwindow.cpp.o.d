@@ -1063,4 +1063,38 @@ CMakeFiles/PassGuard.dir/mainwindow.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /opt/homebrew/include/QtCore/qfileinfo.h \
-  /opt/homebrew/include/QtCore/qtimezone.h
+  /opt/homebrew/include/QtCore/qtimezone.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QToolButton \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qtoolbutton.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QMenu \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qmenu.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QJsonDocument \
+  /opt/homebrew/lib/QtCore.framework/Headers/qjsondocument.h \
+  /opt/homebrew/include/QtCore/qjsonparseerror.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QJsonObject \
+  /opt/homebrew/lib/QtCore.framework/Headers/qjsonobject.h \
+  /opt/homebrew/include/QtCore/qjsonvalue.h \
+  /opt/homebrew/include/QtCore/qcborvalue.h \
+  /opt/homebrew/include/QtCore/qcborcommon.h \
+  /opt/homebrew/include/QtCore/quuid.h \
+  /opt/homebrew/include/QtCore/qjsondocument.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QFile \
+  /opt/homebrew/lib/QtCore.framework/Headers/qfile.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QDir \
+  /opt/homebrew/lib/QtCore.framework/Headers/qdir.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QDebug \
+  /opt/homebrew/lib/QtCore.framework/Headers/qdebug.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QApplication \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qapplication.h \
+  /opt/homebrew/include/QtCore/qcoreapplication.h \
+  /opt/homebrew/include/QtCore/qcoreevent.h \
+  /opt/homebrew/include/QtCore/qbasictimer.h \
+  /opt/homebrew/include/QtCore/qabstracteventdispatcher.h \
+  /opt/homebrew/include/QtCore/qeventloop.h \
+  /opt/homebrew/include/QtCore/qdeadlinetimer.h \
+  /opt/homebrew/include/QtCore/qelapsedtimer.h \
+  /opt/homebrew/include/QtCore/qnativeinterface.h \
+  /opt/homebrew/include/QtCore/qcoreapplication_platform.h \
+  /opt/homebrew/include/QtGui/qguiapplication.h \
+  /opt/homebrew/include/QtGui/qinputmethod.h \
+  /opt/homebrew/include/QtGui/qguiapplication_platform.h

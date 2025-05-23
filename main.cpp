@@ -7,41 +7,24 @@
 int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
 
-    const QString correctMasterPassword = "passguard2025";
-    const QString dataFile = "data.dat";
-    int attempts = 0;
-    const int maxAttempts = 3;
-    QString userPassword;
-
-    if (QFile::exists(dataFile)) {
-        // Запросить мастер-пароль
-        while (attempts < maxAttempts) {
-            AuthDialog dialog;
-            if (dialog.exec() == QDialog::Accepted) {
-                if (dialog.getPassword() == correctMasterPassword) {
-                    userPassword = dialog.getPassword();
-                    break;
-                } else {
-                    QMessageBox::warning(nullptr, "Ошибка", "Неверный мастер-пароль.");
-                    attempts++;
-                }
-            } else {
-                return 0;
-            }
-        }
-
-        if (attempts >= maxAttempts) {
-            QMessageBox::critical(nullptr, "Доступ запрещён", "Превышено количество попыток. Программа будет закрыта.");
+    while (true) {
+        AuthDialog authDialog;
+        if (authDialog.exec() != QDialog::Accepted)
             return 0;
-        }
-    } else {
-        // Первый запуск — сразу пропускаем ввод
-        userPassword = correctMasterPassword;
+
+        QString login = authDialog.getLogin();
+        QString password = authDialog.getPassword();
+
+        MainWindow window(login, password);
+        window.setWindowTitle("PassGuard — Менеджер паролей");
+        window.resize(600, 400);
+        window.show();
+
+        int result = app.exec();
+        if (result != 42) // если не выход из аккаунта
+            break;
     }
 
-    MainWindow w(userPassword);
-    w.setWindowTitle("PassGuard — Менеджер паролей");
-    w.resize(600, 400);
-    w.show();
-    return app.exec();
+    return 0;
 }
+

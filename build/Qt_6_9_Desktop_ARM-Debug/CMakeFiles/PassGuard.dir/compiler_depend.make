@@ -2474,6 +2474,22 @@ CMakeFiles/PassGuard.dir/authdialog.cpp.o: /Users/ekaterinapetrenko/Documents/QT
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/nested_exception.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/operations.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/terminate.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_status.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/operations.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perms.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/space_info.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/buffer.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/concepts.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/enable_insertable.h \
@@ -2519,6 +2535,7 @@ CMakeFiles/PassGuard.dir/authdialog.cpp.o: /Users/ekaterinapetrenko/Documents/QT
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/bit_reference.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/byte.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/complex.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/deque.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/format.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/fstream.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/functional.h \
@@ -2528,7 +2545,9 @@ CMakeFiles/PassGuard.dir/authdialog.cpp.o: /Users/ekaterinapetrenko/Documents/QT
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/memory_resource.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/ostream.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/pair.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/queue.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/sstream.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/streambuf.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string_view.h \
@@ -2645,6 +2664,7 @@ CMakeFiles/PassGuard.dir/authdialog.cpp.o: /Users/ekaterinapetrenko/Documents/QT
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_exclusive_scan.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_inclusive_scan.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_reduce.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ostream/basic_ostream.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/is_valid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/log2.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/uniform_int_distribution.h \
@@ -2723,6 +2743,7 @@ CMakeFiles/PassGuard.dir/authdialog.cpp.o: /Users/ekaterinapetrenko/Documents/QT
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_base_of.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_bounded_array.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_callable.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_char_like_type.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_class.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_compound.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_const.h \
@@ -2830,6 +2851,7 @@ CMakeFiles/PassGuard.dir/authdialog.cpp.o: /Users/ekaterinapetrenko/Documents/QT
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/array \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/atomic \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bit \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bitset \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cctype \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cerrno \
@@ -2849,14 +2871,19 @@ CMakeFiles/PassGuard.dir/authdialog.cpp.o: /Users/ekaterinapetrenko/Documents/QT
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cwchar \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cwctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/deque \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/exception \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/execution \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/format \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iterator \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/limits \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/list \
@@ -2869,8 +2896,12 @@ CMakeFiles/PassGuard.dir/authdialog.cpp.o: /Users/ekaterinapetrenko/Documents/QT
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/new \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/numeric \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/optional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/queue \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ratio \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/set \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stack \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdbool.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdexcept \
@@ -3011,6 +3042,7 @@ CMakeFiles/PassGuard.dir/authdialog.cpp.o: /Users/ekaterinapetrenko/Documents/QT
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/wait.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wchar.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h \
@@ -3065,6 +3097,9 @@ CMakeFiles/PassGuard.dir/authdialog.cpp.o: /Users/ekaterinapetrenko/Documents/QT
   /opt/homebrew/include/QtCore/qbytearrayalgorithms.h \
   /opt/homebrew/include/QtCore/qbytearraylist.h \
   /opt/homebrew/include/QtCore/qbytearrayview.h \
+  /opt/homebrew/include/QtCore/qcalendar.h \
+  /opt/homebrew/include/QtCore/qcborcommon.h \
+  /opt/homebrew/include/QtCore/qcborvalue.h \
   /opt/homebrew/include/QtCore/qchar.h \
   /opt/homebrew/include/QtCore/qcompare.h \
   /opt/homebrew/include/QtCore/qcompare_impl.h \
@@ -3078,9 +3113,11 @@ CMakeFiles/PassGuard.dir/authdialog.cpp.o: /Users/ekaterinapetrenko/Documents/QT
   /opt/homebrew/include/QtCore/qcontiguouscache.h \
   /opt/homebrew/include/QtCore/qdarwinhelpers.h \
   /opt/homebrew/include/QtCore/qdatastream.h \
+  /opt/homebrew/include/QtCore/qdatetime.h \
   /opt/homebrew/include/QtCore/qdebug.h \
   /opt/homebrew/include/QtCore/qendian.h \
   /opt/homebrew/include/QtCore/qexceptionhandling.h \
+  /opt/homebrew/include/QtCore/qfiledevice.h \
   /opt/homebrew/include/QtCore/qflags.h \
   /opt/homebrew/include/QtCore/qfloat16.h \
   /opt/homebrew/include/QtCore/qforeach.h \
@@ -3095,9 +3132,13 @@ CMakeFiles/PassGuard.dir/authdialog.cpp.o: /Users/ekaterinapetrenko/Documents/QT
   /opt/homebrew/include/QtCore/qiodevicebase.h \
   /opt/homebrew/include/QtCore/qiterable.h \
   /opt/homebrew/include/QtCore/qiterator.h \
+  /opt/homebrew/include/QtCore/qjsondocument.h \
+  /opt/homebrew/include/QtCore/qjsonparseerror.h \
+  /opt/homebrew/include/QtCore/qjsonvalue.h \
   /opt/homebrew/include/QtCore/qlatin1stringview.h \
   /opt/homebrew/include/QtCore/qline.h \
   /opt/homebrew/include/QtCore/qlist.h \
+  /opt/homebrew/include/QtCore/qlocale.h \
   /opt/homebrew/include/QtCore/qlogging.h \
   /opt/homebrew/include/QtCore/qmalloc.h \
   /opt/homebrew/include/QtCore/qmap.h \
@@ -3118,6 +3159,7 @@ CMakeFiles/PassGuard.dir/authdialog.cpp.o: /Users/ekaterinapetrenko/Documents/QT
   /opt/homebrew/include/QtCore/qprocessordetection.h \
   /opt/homebrew/include/QtCore/qrect.h \
   /opt/homebrew/include/QtCore/qrefcount.h \
+  /opt/homebrew/include/QtCore/qregularexpression.h \
   /opt/homebrew/include/QtCore/qscopedpointer.h \
   /opt/homebrew/include/QtCore/qscopeguard.h \
   /opt/homebrew/include/QtCore/qset.h \
@@ -3166,6 +3208,7 @@ CMakeFiles/PassGuard.dir/authdialog.cpp.o: /Users/ekaterinapetrenko/Documents/QT
   /opt/homebrew/include/QtCore/qtypes.h \
   /opt/homebrew/include/QtCore/qurl.h \
   /opt/homebrew/include/QtCore/qutf8stringview.h \
+  /opt/homebrew/include/QtCore/quuid.h \
   /opt/homebrew/include/QtCore/qvariant.h \
   /opt/homebrew/include/QtCore/qvarlengtharray.h \
   /opt/homebrew/include/QtCore/qversiontagging.h \
@@ -3204,6 +3247,8 @@ CMakeFiles/PassGuard.dir/authdialog.cpp.o: /Users/ekaterinapetrenko/Documents/QT
   /opt/homebrew/include/QtGui/qwindowdefs.h \
   /opt/homebrew/include/QtWidgets/qabstractbutton.h \
   /opt/homebrew/include/QtWidgets/qboxlayout.h \
+  /opt/homebrew/include/QtWidgets/qdialog.h \
+  /opt/homebrew/include/QtWidgets/qdialogbuttonbox.h \
   /opt/homebrew/include/QtWidgets/qframe.h \
   /opt/homebrew/include/QtWidgets/qgridlayout.h \
   /opt/homebrew/include/QtWidgets/qlayout.h \
@@ -3213,16 +3258,29 @@ CMakeFiles/PassGuard.dir/authdialog.cpp.o: /Users/ekaterinapetrenko/Documents/QT
   /opt/homebrew/include/QtWidgets/qtwidgetsexports.h \
   /opt/homebrew/include/QtWidgets/qtwidgetsglobal.h \
   /opt/homebrew/include/QtWidgets/qwidget.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QCryptographicHash \
+  /opt/homebrew/lib/QtCore.framework/Headers/QFile \
+  /opt/homebrew/lib/QtCore.framework/Headers/QJsonDocument \
+  /opt/homebrew/lib/QtCore.framework/Headers/QJsonObject \
+  /opt/homebrew/lib/QtCore.framework/Headers/QMap \
+  /opt/homebrew/lib/QtCore.framework/Headers/QString \
+  /opt/homebrew/lib/QtCore.framework/Headers/qcryptographichash.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/qfile.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/qjsondocument.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/qjsonobject.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/qmap.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/qstring.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QDialog \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QHBoxLayout \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QLabel \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QLineEdit \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QVBoxLayout \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qboxlayout.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qdialog.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qlineedit.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h
 
 CMakeFiles/PassGuard.dir/cryptomanager.cpp.o: /Users/ekaterinapetrenko/Documents/QT_works/PassGuard/cryptomanager.cpp \
@@ -6030,6 +6088,7 @@ CMakeFiles/PassGuard.dir/mainwindow.cpp.o: /Users/ekaterinapetrenko/Documents/QT
   /opt/homebrew/include/QtCore/q20type_traits.h \
   /opt/homebrew/include/QtCore/q20utility.h \
   /opt/homebrew/include/QtCore/q23utility.h \
+  /opt/homebrew/include/QtCore/qabstracteventdispatcher.h \
   /opt/homebrew/include/QtCore/qabstractitemmodel.h \
   /opt/homebrew/include/QtCore/qalgorithms.h \
   /opt/homebrew/include/QtCore/qanystringview.h \
@@ -6040,12 +6099,15 @@ CMakeFiles/PassGuard.dir/mainwindow.cpp.o: /Users/ekaterinapetrenko/Documents/QT
   /opt/homebrew/include/QtCore/qatomic.h \
   /opt/homebrew/include/QtCore/qatomic_cxx11.h \
   /opt/homebrew/include/QtCore/qbasicatomic.h \
+  /opt/homebrew/include/QtCore/qbasictimer.h \
   /opt/homebrew/include/QtCore/qbindingstorage.h \
   /opt/homebrew/include/QtCore/qbytearray.h \
   /opt/homebrew/include/QtCore/qbytearrayalgorithms.h \
   /opt/homebrew/include/QtCore/qbytearraylist.h \
   /opt/homebrew/include/QtCore/qbytearrayview.h \
   /opt/homebrew/include/QtCore/qcalendar.h \
+  /opt/homebrew/include/QtCore/qcborcommon.h \
+  /opt/homebrew/include/QtCore/qcborvalue.h \
   /opt/homebrew/include/QtCore/qchar.h \
   /opt/homebrew/include/QtCore/qcompare.h \
   /opt/homebrew/include/QtCore/qcompare_impl.h \
@@ -6057,13 +6119,19 @@ CMakeFiles/PassGuard.dir/mainwindow.cpp.o: /Users/ekaterinapetrenko/Documents/QT
   /opt/homebrew/include/QtCore/qcontainerinfo.h \
   /opt/homebrew/include/QtCore/qcontainertools_impl.h \
   /opt/homebrew/include/QtCore/qcontiguouscache.h \
+  /opt/homebrew/include/QtCore/qcoreapplication.h \
+  /opt/homebrew/include/QtCore/qcoreapplication_platform.h \
+  /opt/homebrew/include/QtCore/qcoreevent.h \
   /opt/homebrew/include/QtCore/qdarwinhelpers.h \
   /opt/homebrew/include/QtCore/qdatastream.h \
   /opt/homebrew/include/QtCore/qdatetime.h \
+  /opt/homebrew/include/QtCore/qdeadlinetimer.h \
   /opt/homebrew/include/QtCore/qdebug.h \
   /opt/homebrew/include/QtCore/qdir.h \
   /opt/homebrew/include/QtCore/qdirlisting.h \
+  /opt/homebrew/include/QtCore/qelapsedtimer.h \
   /opt/homebrew/include/QtCore/qendian.h \
+  /opt/homebrew/include/QtCore/qeventloop.h \
   /opt/homebrew/include/QtCore/qexceptionhandling.h \
   /opt/homebrew/include/QtCore/qfile.h \
   /opt/homebrew/include/QtCore/qfiledevice.h \
@@ -6083,6 +6151,9 @@ CMakeFiles/PassGuard.dir/mainwindow.cpp.o: /Users/ekaterinapetrenko/Documents/QT
   /opt/homebrew/include/QtCore/qitemselectionmodel.h \
   /opt/homebrew/include/QtCore/qiterable.h \
   /opt/homebrew/include/QtCore/qiterator.h \
+  /opt/homebrew/include/QtCore/qjsondocument.h \
+  /opt/homebrew/include/QtCore/qjsonparseerror.h \
+  /opt/homebrew/include/QtCore/qjsonvalue.h \
   /opt/homebrew/include/QtCore/qlatin1stringview.h \
   /opt/homebrew/include/QtCore/qline.h \
   /opt/homebrew/include/QtCore/qlist.h \
@@ -6096,6 +6167,7 @@ CMakeFiles/PassGuard.dir/mainwindow.cpp.o: /Users/ekaterinapetrenko/Documents/QT
   /opt/homebrew/include/QtCore/qmetatype.h \
   /opt/homebrew/include/QtCore/qminmax.h \
   /opt/homebrew/include/QtCore/qnamespace.h \
+  /opt/homebrew/include/QtCore/qnativeinterface.h \
   /opt/homebrew/include/QtCore/qnumeric.h \
   /opt/homebrew/include/QtCore/qobject.h \
   /opt/homebrew/include/QtCore/qobject_impl.h \
@@ -6157,6 +6229,7 @@ CMakeFiles/PassGuard.dir/mainwindow.cpp.o: /Users/ekaterinapetrenko/Documents/QT
   /opt/homebrew/include/QtCore/qtypes.h \
   /opt/homebrew/include/QtCore/qurl.h \
   /opt/homebrew/include/QtCore/qutf8stringview.h \
+  /opt/homebrew/include/QtCore/quuid.h \
   /opt/homebrew/include/QtCore/qvariant.h \
   /opt/homebrew/include/QtCore/qvarlengtharray.h \
   /opt/homebrew/include/QtCore/qversiontagging.h \
@@ -6171,8 +6244,11 @@ CMakeFiles/PassGuard.dir/mainwindow.cpp.o: /Users/ekaterinapetrenko/Documents/QT
   /opt/homebrew/include/QtGui/qfontinfo.h \
   /opt/homebrew/include/QtGui/qfontmetrics.h \
   /opt/homebrew/include/QtGui/qfontvariableaxis.h \
+  /opt/homebrew/include/QtGui/qguiapplication.h \
+  /opt/homebrew/include/QtGui/qguiapplication_platform.h \
   /opt/homebrew/include/QtGui/qicon.h \
   /opt/homebrew/include/QtGui/qimage.h \
+  /opt/homebrew/include/QtGui/qinputmethod.h \
   /opt/homebrew/include/QtGui/qkeysequence.h \
   /opt/homebrew/include/QtGui/qpaintdevice.h \
   /opt/homebrew/include/QtGui/qpalette.h \
@@ -6219,28 +6295,44 @@ CMakeFiles/PassGuard.dir/mainwindow.cpp.o: /Users/ekaterinapetrenko/Documents/QT
   /opt/homebrew/include/QtWidgets/qtwidgetsexports.h \
   /opt/homebrew/include/QtWidgets/qtwidgetsglobal.h \
   /opt/homebrew/include/QtWidgets/qwidget.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QDebug \
+  /opt/homebrew/lib/QtCore.framework/Headers/QDir \
+  /opt/homebrew/lib/QtCore.framework/Headers/QFile \
+  /opt/homebrew/lib/QtCore.framework/Headers/QJsonDocument \
+  /opt/homebrew/lib/QtCore.framework/Headers/QJsonObject \
   /opt/homebrew/lib/QtCore.framework/Headers/QString \
   /opt/homebrew/lib/QtCore.framework/Headers/QVector \
+  /opt/homebrew/lib/QtCore.framework/Headers/qdebug.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/qdir.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/qfile.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/qjsondocument.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/qjsonobject.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qstring.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qvector.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QApplication \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QDialog \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QFileDialog \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QInputDialog \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QLineEdit \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QMenu \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QTableWidget \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QToolButton \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QVBoxLayout \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qapplication.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qboxlayout.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qdialog.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qfiledialog.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qinputdialog.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qlineedit.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qmenu.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qtablewidget.h
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qtablewidget.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qtoolbutton.h
 
 CMakeFiles/PassGuard.dir/passwordmanager.cpp.o: /Users/ekaterinapetrenko/Documents/QT_works/PassGuard/passwordmanager.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -9027,37 +9119,23 @@ CMakeFiles/PassGuard.dir/qrdialog.cpp.o: /Users/ekaterinapetrenko/Documents/QT_w
 
 /opt/homebrew/lib/QtGui.framework/Headers/QImage:
 
-/opt/homebrew/lib/QtCore.framework/Headers/qjsonobject.h:
-
-/opt/homebrew/lib/QtCore.framework/Headers/qjsondocument.h:
-
-/opt/homebrew/lib/QtCore.framework/Headers/QJsonObject:
-
-/opt/homebrew/lib/QtCore.framework/Headers/QJsonDocument:
-
-/opt/homebrew/include/QtCore/quuid.h:
-
-/opt/homebrew/include/QtCore/qjsonvalue.h:
-
-/opt/homebrew/include/QtCore/qjsondocument.h:
+/opt/homebrew/lib/QtWidgets.framework/Headers/qtoolbutton.h:
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/qfiledialog.h:
 
+/opt/homebrew/lib/QtWidgets.framework/Headers/QToolButton:
+
 /opt/homebrew/lib/QtWidgets.framework/Headers/QInputDialog:
+
+/opt/homebrew/lib/QtCore.framework/Headers/qdir.h:
+
+/opt/homebrew/lib/QtCore.framework/Headers/qdebug.h:
+
+/opt/homebrew/lib/QtCore.framework/Headers/QDir:
 
 /opt/homebrew/include/QtCore/qdir.h:
 
-/opt/homebrew/include/QtCore/qdatetime.h:
-
-/opt/homebrew/include/QtCore/qcalendar.h:
-
 /opt/homebrew/lib/QtWidgets.framework/Headers/qapplication.h:
-
-/opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox:
-
-/opt/homebrew/lib/QtCore.framework/Headers/qfile.h:
-
-/opt/homebrew/include/QtWidgets/qdialog.h:
 
 /opt/homebrew/include/QtGui/qguiapplication.h:
 
@@ -9068,42 +9146,6 @@ CMakeFiles/PassGuard.dir/qrdialog.cpp.o: /Users/ekaterinapetrenko/Documents/QT_w
 /opt/homebrew/include/QtCore/qbasictimer.h:
 
 /opt/homebrew/include/QtCore/qabstracteventdispatcher.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stack:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/queue:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/deque:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bitset:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ostream/basic_ostream.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/queue.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/deque.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/space_info.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perms.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perm_options.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_time_type.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_status.h:
 
 /opt/homebrew/lib/QtCore.framework/Headers/qbytearray.h:
 
@@ -9153,11 +9195,31 @@ CMakeFiles/PassGuard.dir/qrdialog.cpp.o: /Users/ekaterinapetrenko/Documents/QT_w
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton:
 
+/opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox:
+
 /opt/homebrew/lib/QtWidgets.framework/Headers/QLineEdit:
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/QLabel:
 
+/opt/homebrew/lib/QtCore.framework/Headers/qmap.h:
+
+/opt/homebrew/lib/QtCore.framework/Headers/qjsonobject.h:
+
+/opt/homebrew/lib/QtCore.framework/Headers/qjsondocument.h:
+
+/opt/homebrew/lib/QtCore.framework/Headers/qfile.h:
+
+/opt/homebrew/lib/QtCore.framework/Headers/QMap:
+
+/opt/homebrew/lib/QtCore.framework/Headers/QJsonObject:
+
+/opt/homebrew/lib/QtCore.framework/Headers/QJsonDocument:
+
+/opt/homebrew/lib/QtCore.framework/Headers/QCryptographicHash:
+
 /opt/homebrew/include/QtWidgets/qlayout.h:
+
+/opt/homebrew/include/QtWidgets/qdialog.h:
 
 /opt/homebrew/include/QtWidgets/qabstractbutton.h:
 
@@ -9169,7 +9231,55 @@ CMakeFiles/PassGuard.dir/qrdialog.cpp.o: /Users/ekaterinapetrenko/Documents/QT_w
 
 /opt/homebrew/include/QtGui/qpen.h:
 
+/opt/homebrew/include/QtCore/quuid.h:
+
 /opt/homebrew/include/QtCore/qurl.h:
+
+/opt/homebrew/include/QtCore/qjsonvalue.h:
+
+/opt/homebrew/include/QtCore/qjsondocument.h:
+
+/opt/homebrew/include/QtCore/qdatetime.h:
+
+/opt/homebrew/include/QtCore/qcalendar.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stack:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/queue:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/deque:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bitset:
+
+/opt/homebrew/lib/QtCore.framework/Headers/qcryptographichash.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ostream/basic_ostream.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/queue.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/deque.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/space_info.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perms.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perm_options.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_time_type.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_status.h:
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/qtablewidget.h:
 
@@ -9925,9 +10035,9 @@ PassGuard_autogen/EWIEGA46WW/moc_qrdialog.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/ranges_construct_at.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_char_like_type.h:
-
 /opt/homebrew/include/QtGui/qtextdocument.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_char_like_type.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/pointer_traits.h:
 
@@ -10336,8 +10446,6 @@ PassGuard_autogen/EWIEGA46WW/moc_qrdialog.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__debug_utils/strict_weak_ordering_check.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pop_heap.h:
-
-/opt/homebrew/lib/QtWidgets.framework/Headers/QHBoxLayout:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_output.h:
 
@@ -11098,6 +11206,8 @@ CMakeFiles/4.0.1/CMakeSystem.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/optional:
 
 /opt/homebrew/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qabstractitemview.h:
+
+/opt/homebrew/lib/QtWidgets.framework/Headers/qmenu.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/sys/_types/_mach_port_t.h:
 
@@ -12831,6 +12941,8 @@ PassGuard_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__algorithm/rotate.h:
 
+/opt/homebrew/lib/QtWidgets.framework/Headers/QMenu:
+
 /opt/homebrew/include/openssl/symhacks.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__undef_macros:
@@ -13318,6 +13430,8 @@ PassGuard_autogen/mocs_compilation.cpp:
 /opt/homebrew/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake:
 
 /opt/homebrew/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateConfig.cmake:
+
+/opt/homebrew/lib/QtCore.framework/Headers/QDebug:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/sys/_types/_clock_t.h:
 

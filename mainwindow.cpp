@@ -7,15 +7,35 @@
 #include <QMessageBox>
 #include <QFileDialog>
 
-MainWindow::MainWindow(const QString &password, QWidget *parent)
-    : QMainWindow(parent), masterPassword(password)
-{
+#include <QToolButton>
+#include <QMenu>
+#include <QJsonDocument>
+#include <QJsonObject>
+#include <QFile>
+#include <QDir>
+#include <QDebug>
+
+#include <QApplication>
+
+MainWindow::MainWindow(const QString &login, const QString &password, QWidget *parent)
+    : QMainWindow(parent), currentLogin(login), masterPassword(password) {
     setupUI();
-    manager.loadFromFile("data.dat", masterPassword);
+    QDir().mkpath("users");  // создаёт папку, если её нет
+
+    bool success = manager.loadFromFile("users/" + currentLogin + ".dat", masterPassword);
+    if (!success) {
+        QMessageBox::warning(this, "Ошибка", "Не удалось загрузить пароли. Возможно, неверный пароль или повреждён файл.");
+    }
+
     refreshTable();
+
 }
 
-MainWindow::~MainWindow() {}
+
+MainWindow::~MainWindow() {
+    manager.saveToFile("users/" + currentLogin + ".dat", masterPassword);
+}
+
 
 void MainWindow::setupUI() {
     QWidget *central = new QWidget(this);
@@ -49,21 +69,28 @@ void MainWindow::setupUI() {
     layout->addWidget(importBtn);
     layout->addWidget(exportBtn);
 
+    layout->addSpacing(10); // между группами
+
     QPushButton *qrBtn = new QPushButton("QR-код");
     connect(qrBtn, &QPushButton::clicked, this, &MainWindow::showQrCode);
     layout->addWidget(qrBtn);
+
+    createSettingsMenu();
 }
 
-void MainWindow::setMasterPassword(const QString &password) {
-    masterPassword = password;
-    manager.loadFromFile("data.dat", masterPassword);
-    refreshTable();
-}
+// void MainWindow::setMasterPassword(const QString &password) {
+//     masterPassword = password;
+//     manager.loadFromFile("data.dat", masterPassword);
+//     refreshTable();
+// }
 
 
 void MainWindow::refreshTable() {
     table->setRowCount(0);
     const auto &entries = manager.getEntries();
+
+    qDebug() << "Загружено записей:" << entries.size();
+
     for (int i = 0; i < entries.size(); ++i) {
         table->insertRow(i);
         table->setItem(i, 0, new QTableWidgetItem(entries[i].service));
@@ -82,10 +109,11 @@ void MainWindow::addPassword() {
 
     if (!entry.service.isEmpty() && !entry.username.isEmpty()) {
         manager.addEntry(entry);
-        manager.saveToFile("data.dat", masterPassword); // 👈 добавь вот это
+        manager.saveToFile("users/" + currentLogin + ".dat", masterPassword);
         refreshTable();
     }
 }
+
 
 void MainWindow::editPassword() {
     int row = table->currentRow();
@@ -98,9 +126,11 @@ void MainWindow::editPassword() {
     entry.password = QInputDialog::getText(this, "Пароль", "Изменить пароль:", QLineEdit::Password, entry.password);
     entry.note = QInputDialog::getText(this, "Заметка", "Изменить заметку:", QLineEdit::Normal, entry.note);
 
-    manager.updateEntry(row, entry);
-    manager.saveToFile("data.dat", masterPassword);
-    refreshTable();
+    if (!entry.service.isEmpty() && !entry.username.isEmpty()) {
+        manager.updateEntry(row, entry);
+        manager.saveToFile("users/" + currentLogin + ".dat", masterPassword);
+        refreshTable();
+    }
 }
 
 void MainWindow::removePassword() {
@@ -113,7 +143,7 @@ void MainWindow::removePassword() {
 
     if (reply == QMessageBox::Yes) {
         manager.removeEntry(row);
-        manager.saveToFile("data.dat", masterPassword);
+        manager.saveToFile("users/" + currentLogin + ".dat", masterPassword);
         refreshTable();
     }
 }
@@ -143,7 +173,10 @@ void MainWindow::importPasswords() {
 
 void MainWindow::showQrCode() {
     int row = table->currentRow();
-    if (row < 0) return;
+    if (row < 0) {
+        QMessageBox::warning(this, "Внимание", "Сначала выберите строку в таблице.");
+        return;
+    }
 
     const PasswordEntry &entry = manager.getEntries()[row];
     QString data = QString("Сервис: %1\nЛогин: %2\nПароль: %3")
@@ -153,4 +186,59 @@ void MainWindow::showQrCode() {
 
     QRDialog *dialog = new QRDialog(data, this);
     dialog->exec();
+}
+
+
+void MainWindow::createSettingsMenu() {
+    auto *settingsButton = new QToolButton(this);
+    settingsButton->setText("⚙ Настройки");
+    settingsButton->setPopupMode(QToolButton::InstantPopup);
+
+    QMenu *menu = new QMenu(this);
+    menu->addAction("Выйти из аккаунта", this, &MainWindow::logout);
+    menu->addAction("Удалить аккаунт", this, &MainWindow::deleteAccount);
+    menu->addAction("Выйти из приложения", this, &MainWindow::quitApp);
+
+    settingsButton->setMenu(menu);
+
+    auto *layout = static_cast<QVBoxLayout *>(centralWidget()->layout());
+    layout->addSpacing(10);
+    layout->addWidget(settingsButton);
+}
+
+void MainWindow::logout() {
+    manager.saveToFile("users/" + currentLogin + ".dat", masterPassword);
+    QMessageBox::information(this, "Выход", "Выход из аккаунта.");
+    qApp->exit(42);
+}
+
+void MainWindow::deleteAccount() {
+    manager.saveToFile("users/" + currentLogin + ".dat", masterPassword);
+
+    if (QMessageBox::question(this, "Удалить аккаунт", "Удалить аккаунт " + currentLogin + "?") == QMessageBox::Yes) {
+        // Очистка паролей перед удалением файла
+        manager = PasswordManager(); // сбросить менеджер
+        manager.saveToFile("users/" + currentLogin + ".dat", masterPassword);
+        QFile::remove("users/" + currentLogin + ".dat");
+
+        QFile file("users.json");
+        if (file.open(QIODevice::ReadOnly)) {
+            QJsonDocument doc = QJsonDocument::fromJson(file.readAll());
+            QJsonObject obj = doc.object();
+            obj.remove(currentLogin);
+            file.close();
+
+            file.open(QIODevice::WriteOnly);
+            file.write(QJsonDocument(obj).toJson());
+            file.close();
+        }
+
+        QMessageBox::information(this, "Удалено", "Аккаунт успешно удалён.");
+        qApp->exit(42);
+    }
+}
+
+void MainWindow::quitApp() {
+    manager.saveToFile("users/" + currentLogin + ".dat", masterPassword);
+    qApp->quit();
 }

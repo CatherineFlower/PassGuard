@@ -68,8 +68,11 @@ bool PasswordManager::loadFromFile(const QString &filename, const QString &passw
 
     QByteArray decrypted = CryptoManager::decrypt(encryptedData, password);
     if (decrypted.isEmpty()) {
+        qDebug() << "[ERROR] Decryption failed — пустой результат";
         return false;
     }
+
+    qDebug() << "[INFO] Decrypted JSON:" << decrypted;
 
     QJsonDocument doc = QJsonDocument::fromJson(decrypted);
     if (!doc.isObject()) {
